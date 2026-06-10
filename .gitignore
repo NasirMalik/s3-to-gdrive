@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Local config — copy .s3gdrive.example.json and fill in your values
+.s3gdrive.json
+
+# OAuth token and credentials — never commit these
+*_token.json
+*_credentials.json
+credentials.json

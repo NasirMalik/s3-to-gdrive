@@ -1,0 +1,179 @@
+#!/usr/bin/env python3
+"""
+s3gdrive — Download files from S3 and upload them to Google Drive.
+
+Prerequisites:
+  1. AWS CLI installed and configured (aws configure, or env vars AWS_ACCESS_KEY_ID etc.)
+  2. Google Cloud project with Drive API enabled:
+       https://console.cloud.google.com/apis/library/drive.googleapis.com
+     Create OAuth2 credentials (Desktop app type) and download as:
+       ~/.s3gdrive_credentials.json
+  3. On first run, a browser window opens for Google authorization.
+     The token is cached at ~/.s3gdrive_token.json — no re-auth on subsequent runs.
+
+Config file (~/.s3gdrive.json) — all keys optional, CLI args override:
+  {
+    "s3_path":        "s3://my-bucket/configs/",
+    "drive_folder_id": "GOOGLE_DRIVE_FOLDER_ID",
+    "credentials":    "~/.s3gdrive_credentials.json"
+  }
+
+Usage:
+  s3gdrive --s3-path s3://bucket/path/ --drive-folder-id FOLDER_ID
+  s3gdrive                          # uses ~/.s3gdrive.json defaults
+  s3gdrive --help
+"""
+
+import argparse
+import json
+import os
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+TOKEN_PATH = Path.home() / ".s3gdrive_token.json"
+CONFIG_PATH = Path.home() / ".s3gdrive.json"
+DEFAULT_CREDENTIALS = Path.home() / ".s3gdrive_credentials.json"
+
+SCOPES = ["https://www.googleapis.com/auth/drive.file"]
+
+
+def load_config():
+    if CONFIG_PATH.exists():
+        with open(CONFIG_PATH) as f:
+            return json.load(f)
+    return {}
+
+
+def parse_args(config):
+    parser = argparse.ArgumentParser(
+        description="Download files from S3 and upload them to Google Drive.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument(
+        "--s3-path",
+        default=config.get("s3_path"),
+        help="S3 path to sync from (e.g. s3://my-bucket/configs/)",
+    )
+    parser.add_argument(
+        "--drive-folder-id",
+        default=config.get("drive_folder_id"),
+        help="Google Drive folder ID to upload files into",
+    )
+    parser.add_argument(
+        "--credentials",
+        default=config.get("credentials", str(DEFAULT_CREDENTIALS)),
+        help=f"Path to OAuth2 credentials JSON (default: {DEFAULT_CREDENTIALS})",
+    )
+    return parser.parse_args()
+
+
+def get_drive_service(credentials_path):
+    from google.oauth2.credentials import Credentials
+    from google_auth_oauthlib.flow import InstalledAppFlow
+    from google.auth.transport.requests import Request
+    from googleapiclient.discovery import build
+
+    creds = None
+    cred_path = Path(credentials_path).expanduser()
+
+    if not cred_path.exists():
+        print(f"[error] Credentials file not found: {cred_path}")
+        print()
+        print("To set up Google Drive access:")
+        print("  1. Go to https://console.cloud.google.com/apis/library/drive.googleapis.com")
+        print("  2. Enable the Google Drive API")
+        print("  3. Go to Credentials → Create Credentials → OAuth client ID")
+        print("  4. Choose 'Desktop app', download the JSON")
+        print(f"  5. Save it as: {cred_path}")
+        sys.exit(1)
+
+    if TOKEN_PATH.exists():
+        creds = Credentials.from_authorized_user_file(str(TOKEN_PATH), SCOPES)
+
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+        else:
+            flow = InstalledAppFlow.from_client_secrets_file(str(cred_path), SCOPES)
+            creds = flow.run_local_server(port=0)
+        with open(TOKEN_PATH, "w") as f:
+            f.write(creds.to_json())
+        print(f"[auth] Token saved to {TOKEN_PATH}")
+
+    return build("drive", "v3", credentials=creds)
+
+
+def sync_from_s3(s3_path, tmpdir):
+    print(f"[s3] Syncing {s3_path} → {tmpdir}")
+    result = subprocess.run(
+        ["aws", "s3", "sync", s3_path, tmpdir],
+        check=True,
+        capture_output=False,
+    )
+    files = list(Path(tmpdir).rglob("*"))
+    files = [f for f in files if f.is_file()]
+    print(f"[s3] Downloaded {len(files)} file(s)")
+    return files
+
+
+def upload_to_drive(service, files, tmpdir, drive_folder_id):
+    from googleapiclient.http import MediaFileUpload
+
+    tmpdir_path = Path(tmpdir)
+    uploaded = 0
+
+    for filepath in files:
+        # Preserve relative path as filename (use / as separator)
+        relative = filepath.relative_to(tmpdir_path)
+        name = str(relative)
+
+        print(f"[drive] Uploading {name} ...", end=" ", flush=True)
+        media = MediaFileUpload(str(filepath), resumable=True)
+        file_meta = {"name": name, "parents": [drive_folder_id]}
+        service.files().create(
+            body=file_meta,
+            media_body=media,
+            fields="id,name",
+        ).execute()
+        print("done")
+        uploaded += 1
+
+    print(f"[drive] Uploaded {uploaded} file(s) to folder {drive_folder_id}")
+
+
+def check_aws_cli():
+    if shutil.which("aws") is None:
+        print("[error] AWS CLI not found. Install it from https://aws.amazon.com/cli/")
+        sys.exit(1)
+
+
+def main():
+    config = load_config()
+    args = parse_args(config)
+
+    if not args.s3_path:
+        print("[error] --s3-path is required (or set 's3_path' in ~/.s3gdrive.json)")
+        sys.exit(1)
+    if not args.drive_folder_id:
+        print("[error] --drive-folder-id is required (or set 'drive_folder_id' in ~/.s3gdrive.json)")
+        sys.exit(1)
+
+    check_aws_cli()
+
+    service = get_drive_service(args.credentials)
+
+    with tempfile.TemporaryDirectory(prefix="s3gdrive_") as tmpdir:
+        files = sync_from_s3(args.s3_path, tmpdir)
+        if not files:
+            print("[info] No files found in S3 path. Nothing to upload.")
+            return
+        upload_to_drive(service, files, tmpdir, args.drive_folder_id)
+
+    print("[done] All files uploaded successfully.")
+
+
+if __name__ == "__main__":
+    main()

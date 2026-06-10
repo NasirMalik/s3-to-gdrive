@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/opt/homebrew/bin/python3
 """
 s3gdrive — Downloads TES config files from S3 and uploads them to Google Drive.
 

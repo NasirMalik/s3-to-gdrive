@@ -47,7 +47,9 @@ def create_drive_folder(service, name, parent_id):
         "mimeType": "application/vnd.google-apps.folder",
         "parents": [parent_id],
     }
-    folder = service.files().create(body=meta, fields="id").execute()
+    folder = service.files().create(
+        body=meta, fields="id", supportsAllDrives=True
+    ).execute()
     return folder["id"]
 
 
@@ -69,6 +71,7 @@ def upload_to_drive(service, files, tmpdir, folder_id):
             body={"name": name, "parents": [folder_id]},
             media_body=media,
             fields="id",
+            supportsAllDrives=True,
         ).execute()
         print("done")
 

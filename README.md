@@ -6,10 +6,10 @@ A small CLI tool that downloads files from an S3 bucket and uploads them to a Go
 
 - Python 3.8+
 - AWS CLI installed and configured
-- Python packages: `google-api-python-client`, `google-auth-oauthlib`
+- Python packages:
 
 ```bash
-pip install google-api-python-client google-auth-oauthlib google-auth-httplib2
+pip install google-api-python-client google-auth-oauthlib google-auth-httplib2 pyyaml requests
 ```
 
 ## Setup
@@ -43,15 +43,41 @@ cp .s3gdrive.example.json ~/.s3gdrive.json
 ## Usage
 
 ```bash
-# Pass everything as flags
-s3gdrive --s3-path s3://my-bucket/configs/ --drive-folder-id YOUR_FOLDER_ID
+# Run with Confluence update enabled
+CONFLUENCE_EMAIL=you@deliveryhero.com \
+CONFLUENCE_API_TOKEN=your_token \
+./s3gdrive
 
-# Or use defaults from ~/.s3gdrive.json
-s3gdrive
+# Run without Confluence update (omit the env vars)
+./s3gdrive
 ```
 
 The Drive folder ID is the last segment of a folder URL:
 `https://drive.google.com/drive/folders/THIS_PART`
+
+## Confluence page update
+
+After uploading all files to Drive, the script automatically:
+
+1. Parses all `default.yml` files downloaded from S3
+2. Compares against `~/.s3gdrive_snapshot.json` (created on first run) to detect changes
+3. Prints a diff of any added/removed countries or changed config values
+4. Rebuilds the **Config Coverage per Country** table at the bottom of the
+   [TES PDT Display Format Confluence page](https://deliveryhero.atlassian.net/wiki/spaces/LOGCPL/pages/1730215943)
+5. Saves a new snapshot for the next run
+
+The hand-maintained top table (platform summary + notes) is never touched.
+
+### Credentials
+
+Generate an API token at <https://id.atlassian.com/manage/api-tokens> and set:
+
+```bash
+export CONFLUENCE_EMAIL=you@deliveryhero.com
+export CONFLUENCE_API_TOKEN=your_api_token
+```
+
+If the env vars are absent the script skips the Confluence step silently.
 
 ## Config file (`~/.s3gdrive.json`)
 

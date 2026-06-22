@@ -89,6 +89,14 @@ def create_drive_folder(service, name, parent_id):
     return folder["id"]
 
 
+def ensure_aws_auth():
+    result = subprocess.run(["aws", "sts", "get-caller-identity"], capture_output=True)
+    if result.returncode != 0:
+        print("[aws] Session expired — opening browser to log in ...")
+        subprocess.run(["aws", "login"], check=True)
+        print("[aws] Login complete.")
+
+
 def sync_from_s3(bucket, tmpdir):
     s3_path = f"s3://{bucket}/"
     print(f"[s3] Syncing {s3_path} ...")
@@ -99,16 +107,26 @@ def sync_from_s3(bucket, tmpdir):
 
 
 def upload_to_drive(service, files, tmpdir, folder_id):
+    import time
     for filepath in files:
         name = str(filepath.relative_to(tmpdir))
         print(f"[drive] Uploading {name} ...", end=" ", flush=True)
-        media = MediaFileUpload(str(filepath), resumable=True)
-        service.files().create(
-            body={"name": name, "parents": [folder_id]},
-            media_body=media,
-            fields="id",
-            supportsAllDrives=True,
-        ).execute()
+        media = MediaFileUpload(str(filepath), resumable=False)
+        for attempt in range(4):
+            try:
+                service.files().create(
+                    body={"name": name, "parents": [folder_id]},
+                    media_body=media,
+                    fields="id",
+                    supportsAllDrives=True,
+                ).execute()
+                break
+            except Exception as e:
+                if attempt == 3:
+                    raise
+                wait = 2 ** attempt
+                print(f"[retry {attempt+1}] {e} — retrying in {wait}s ...", end=" ", flush=True)
+                time.sleep(wait)
         print("done")
 
 
@@ -369,6 +387,7 @@ def main():
         print("[error] AWS CLI not found. Install from https://aws.amazon.com/cli/")
         sys.exit(1)
 
+    ensure_aws_auth()
     print("[auth] Loading credentials via gcloud application default ...")
     service = get_drive_service()
 

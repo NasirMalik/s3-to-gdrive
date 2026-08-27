@@ -1,0 +1,742 @@
+{
+  "bd": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "hk": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "jp": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "kh": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "la": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "mm": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "my": {
+    "platform": "pandora",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ph": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "pk": {
+    "platform": "pandora",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "sg": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "th": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "tw": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "vn": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ad": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ae": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "am": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "at": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ba": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "bg": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "bh": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ci": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "cy": {
+    "platform": "efood",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "cz": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "de": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "dk": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "eg": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "es": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "fi": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ge": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "gr": {
+    "platform": "efood",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "hr": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "hu": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "iq": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "it": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "jo": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ke": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "kg": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "kw": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "kz": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ma": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "md": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "me": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ng": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "no": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "om": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "pl": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "pt": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "qa": {
+    "platform": "talabat",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ro": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "rs": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "sa": {
+    "platform": "hungerstation",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "FLOOR_5"
+  },
+  "se": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "sk": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "tn": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "tr": {
+    "platform": "pandora",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ua": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ug": {
+    "platform": "glovo",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "kr": {
+    "platform": "woowa",
+    "pickup_is_range": true,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": true,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "—"
+  },
+  "ar": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "bo": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "cl": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "co": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "cr": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "do": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ec": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "gt": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "hn": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ni": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "pa": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "pe": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "py": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "sv": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "uy": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": true,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  },
+  "ve": {
+    "platform": "peya",
+    "pickup_is_range": false,
+    "delivery_is_range": true,
+    "has_standard": true,
+    "has_priority": false,
+    "has_saver": false,
+    "has_capping": true,
+    "rounding_strategy": "NEAREST_5"
+  }
+}

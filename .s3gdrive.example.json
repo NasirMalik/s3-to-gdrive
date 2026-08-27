@@ -1,5 +1,0 @@
-{
-  "s3_path": "s3://my-bucket/configs/",
-  "drive_folder_id": "GOOGLE_DRIVE_FOLDER_ID_HERE",
-  "credentials": "~/.s3gdrive_credentials.json"
-}

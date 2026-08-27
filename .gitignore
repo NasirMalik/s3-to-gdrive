@@ -1,10 +1,20 @@
 __pycache__/
 *.pyc
+.DS_Store
 
-# Local config — copy .s3gdrive.example.json and fill in your values
-.s3gdrive.json
+# Working directory for each sync run — regenerated every time, safe to delete
+.s3sync/
 
-# OAuth token and credentials — never commit these
+# Local mirror of the S3 config files. Not committed (it is production config, and it is
+# reproducible from S3), but keep it between runs: it is what guarantees the analysis sees
+# the complete country set. Deleting it just forces a full refetch.
+.cache/
+
+# Never commit credentials of any kind
 *_token.json
 *_credentials.json
 credentials.json
+.env
+
+# manifest.json and config-snapshot.json ARE committed on purpose:
+# they are the run-to-run state the sync diffs against.

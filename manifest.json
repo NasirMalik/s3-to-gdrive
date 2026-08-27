@@ -1,0 +1,662 @@
+{
+  "production-ap-customer-logistics-seamless-configs-tes/bd/config-a.yml": {
+    "driveFileId": "1zqjVLchBnrKwvle3NM303GT-NY2u7REv",
+    "etag": "4c1c43d661146e1c5ba1dddcf17b70cc",
+    "size": 35039
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/bd/default.yml": {
+    "driveFileId": "1iAoX29l6WY9Bz9939dy3y1-4zWNVD6Bn",
+    "etag": "ce0470a045c9ba678ef6f9a6ec254dc6",
+    "size": 35038
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/hk/config-a.yml": {
+    "driveFileId": "13rMSd-UJkZNSizBXebILZxHDyoff3N5l",
+    "etag": "973d8cd142f390829085e745a43a6ce9",
+    "size": 37367
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/hk/default.yml": {
+    "driveFileId": "1HgercDG5SzkRzarj509m3YiQ4fqVQmW3",
+    "etag": "1a54e41faf9ca1cca6bff8444d0eea9d",
+    "size": 37366
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/jp/config-a.yml": {
+    "driveFileId": "18fL6ZcNaZgB3CMMmkuV4Vq0_4xMLu5mj",
+    "etag": "b26cd44dc815f3d6269fe70066d9bc78",
+    "size": 2337
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/jp/default.yml": {
+    "driveFileId": "1WiSdmn7YMPy_K3sYr9sIyxMELbShtRhL",
+    "etag": "fc9564087ab86374729bd4a38bf9005b",
+    "size": 2336
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/kh/config-a.yml": {
+    "driveFileId": "19-2DfFjxc_Qe5SeswZ1f_vOyjS2DE1CA",
+    "etag": "ba9e60c21d867b256e0d7ef3e9ff1d09",
+    "size": 32384
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/kh/default.yml": {
+    "driveFileId": "17Naum4UN5-116sFLuZ3yz8Wm37IXvFkF",
+    "etag": "09e6b2128242d66bc02fb355f870e82a",
+    "size": 25612
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/la/config-a.yml": {
+    "driveFileId": "13fLlfMY0yBt8fJ5W60kxHtH93QNCGKOb",
+    "etag": "ec06ac214376e49b292bc1fd2fe5400a",
+    "size": 29851
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/la/default.yml": {
+    "driveFileId": "1EYl10eCL1q5G-IOpHCjK6qL2MCRv53FI",
+    "etag": "c9ceb81846c1f4843dfcff5e5d4fd64e",
+    "size": 25670
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/mm/config-a.yml": {
+    "driveFileId": "17zzQY-ojpxB99seMAbHiH7DUhK0ltWMq",
+    "etag": "e3cb664d9fe14ded9fecd60353dcdb8f",
+    "size": 24808
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/mm/default.yml": {
+    "driveFileId": "1-OCJcelulwrcM0AmikNb8xjCfY56K4Zc",
+    "etag": "844120d7ed9535217a4074a59710577f",
+    "size": 25669
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/my/config-a.yml": {
+    "driveFileId": "1ZMutD7Lq7ZxlBWlFWEdeTgjIfT2m2lPc",
+    "etag": "4379ad367ba027efdaab07bee188ee90",
+    "size": 27575
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/my/default.yml": {
+    "driveFileId": "1VCJtoydw1E-Hz3DJUKXtGhnvcSFlWftA",
+    "etag": "b5d6d7607794b17ecfdd981b3f082d0f",
+    "size": 1658
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/ph/config-a.yml": {
+    "driveFileId": "1L8mTn2EBzG07cfRTuztea5CblEyTO-Uw",
+    "etag": "2df6691380e8c05fb9c769d0f1f7b1c2",
+    "size": 23566
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/ph/default.yml": {
+    "driveFileId": "10sQ86Qq_vzNNN-BbBmY8TLGMKQJ2Msan",
+    "etag": "53256632400f2e85d4c92013be67a7a8",
+    "size": 23565
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/pk/config-a.yml": {
+    "driveFileId": "1wVdhpiqywGP53j1_rwQFxgdScPk_dLIL",
+    "etag": "14d92e92ac110fac1bb9636398effc22",
+    "size": 36548
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/pk/default.yml": {
+    "driveFileId": "1VPrKVLaI-xyiU-7ZRX1mcI9Sr6uPePTp",
+    "etag": "9241587c8e892869fadb63dc4d69805d",
+    "size": 1658
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/sg/config-a.yml": {
+    "driveFileId": "1dMw1dxqNu34b0ZLEdh1wuDQ52D54OQTa",
+    "etag": "9472a24f6e7d2d71debad447d82d6ef2",
+    "size": 42088
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/sg/default.yml": {
+    "driveFileId": "1CsvYJ3jkraZzxzDDdP_iBqoj4kc6dCJf",
+    "etag": "760c3635e0ae39aaac5fee7c9309d85a",
+    "size": 42087
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/th/config-a.yml": {
+    "driveFileId": "1PtMnNctqcJ04ma-j51fVeZDBYMCsBCyo",
+    "etag": "f727de4e3ea276eb99218481bc66d64a",
+    "size": 36116
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/th/default.yml": {
+    "driveFileId": "1ReFOGGa7pPWt5Fx3CWx8PMYW3eB3VgDR",
+    "etag": "7c0b9c429f7a164cbc44c6189235b04a",
+    "size": 25654
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/tw/config-a.yml": {
+    "driveFileId": "13nFcPsmp5coMEfB7B_pSKySxkmR8Cws7",
+    "etag": "7f0d9df2b8ade094f88f159ed4cbb9e5",
+    "size": 24661
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/tw/default.yml": {
+    "driveFileId": "1PMYz773rWBWHAozD41YBGpJSiU44b0Z9",
+    "etag": "2ad04ad3125e4ac4165c57ba9dd66b76",
+    "size": 21802
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/vn/config-a.yml": {
+    "driveFileId": "19IXxVU7Jgnkt5ztZLUvH-4ADN8sQmgcV",
+    "etag": "25276ab25210702586a9b31867d79f11",
+    "size": 2337
+  },
+  "production-ap-customer-logistics-seamless-configs-tes/vn/default.yml": {
+    "driveFileId": "1PrjOY0bwOd4xRmAT9wLcRtnWPTnsV9GV",
+    "etag": "42ad76f77f6a6d76106721b424652f5b",
+    "size": 2336
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ad/config-a.yml": {
+    "driveFileId": "1WEzHNCaFYKlm1vmv8ONeNVE4SOqTKUZU",
+    "etag": "53ae4c39572de2c23cec8c18ef6f2a9d",
+    "size": 1425
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ad/default.yml": {
+    "driveFileId": "1uTtewJk6T9Ez4P2Uv95jtpWgKdgIfh2j",
+    "etag": "2743965a64d8612ae42f1bada84218bf",
+    "size": 1424
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ae/config-a.yml": {
+    "driveFileId": "17_2pcMdvXFoUYQ5WYwurptQ-f4CwL4WD",
+    "etag": "edcb356d270a3c5f2bc6756d409707ae",
+    "size": 45884
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ae/default.yml": {
+    "driveFileId": "1maf9GG7DQ4OVRR78s9s8kOE4V1PphRvz",
+    "etag": "855a15034539b016d1c9b19832690851",
+    "size": 21702
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/am/config-a.yml": {
+    "driveFileId": "1LsOIWNQ954kVE587hGtie_3WDhMeBV02",
+    "etag": "2e008e039085e53f9ff31ae17ff74d2c",
+    "size": 31552
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/am/default.yml": {
+    "driveFileId": "1jZ5qidC6G_jQu4cnoMtmwoqj5PNs1PRK",
+    "etag": "14946709bde5fb3059683e96bcea89ac",
+    "size": 31551
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/at/config-a.yml": {
+    "driveFileId": "1SkNVVJKVorH-M5ZRy3aqH16N1wCflHky",
+    "etag": "3e39309e14cf79a310c9b1d78adabc6b",
+    "size": 15670
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/at/default.yml": {
+    "driveFileId": "1g7LUWD2vCMqnQNngh5qtodeyITdQMc_0",
+    "etag": "53796b62da62b4ab75b824fde5627235",
+    "size": 17886
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ba/config-a.yml": {
+    "driveFileId": "1omslMJmdsbaQmodKcAmDeLNVCT81xB15",
+    "etag": "13d1f5aa68bf620b75476b9974806438",
+    "size": 31600
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ba/default.yml": {
+    "driveFileId": "1BUseZ8wa-cJdZGDk45XhC9WtWeHpKCiP",
+    "etag": "4b460d8daff99757343fe75cc28da83a",
+    "size": 31599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/bg/config-a.yml": {
+    "driveFileId": "1O9mHzkjbk-o3XT5wu6t9q_cprs3ImNDH",
+    "etag": "bf885ee39730763df4f0b16189a48e14",
+    "size": 31624
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/bg/default.yml": {
+    "driveFileId": "1K3QnE0lk-E5Nxj4PcmCbhAXRZW-9T4XS",
+    "etag": "f8ceab68fc08df1e28e6c47a9d8b7678",
+    "size": 31623
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/bh/config-a.yml": {
+    "driveFileId": "1ghJFLdzeOCnGBk-xNmw0607CvS1hH9kI",
+    "etag": "93500470254103a298664a994c153e9d",
+    "size": 34163
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/bh/default.yml": {
+    "driveFileId": "1ZZ-TSyfmjVU0TCXmQQR0ktdrlTT4pVJV",
+    "etag": "199cf6db4303be804107984108e6549e",
+    "size": 21353
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ci/config-a.yml": {
+    "driveFileId": "1QMjN82zUZDkhSxph8gx6Thwl6FCO5VdK",
+    "etag": "731e343888d5cf19d9e43a712ef97d84",
+    "size": 31624
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ci/default.yml": {
+    "driveFileId": "1PmSWHgzQj0qJpaVIshLPS9qYF5qOuVUt",
+    "etag": "ec2afb164b2cc85b970e558f9398c47f",
+    "size": 31623
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/cy/config-a.yml": {
+    "driveFileId": "1Xs3roe-Ra9uevm64bMWai0KvrTEGPxC-",
+    "etag": "c0505cffdb27fd37ce2a42ca43ab9753",
+    "size": 19428
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/cy/default.yml": {
+    "driveFileId": "1X2A_HB3TEPXOL5MTH4FG46h-QVxugMCH",
+    "etag": "c9f8f39705e3a4ed6e56217e023b1d2b",
+    "size": 21233
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/cz/config-a.yml": {
+    "driveFileId": "1ov9PHkYY90pNA-cnSzAP9Xls2jBIZX-U",
+    "etag": "3d779fbc3b0cfb0fe7db5f25015d76a1",
+    "size": 19539
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/cz/default.yml": {
+    "driveFileId": "1y-7npWmxjVtaYkUsipY4EuOqwPIzqTWK",
+    "etag": "de72345592e94db90c64672c4704ac1d",
+    "size": 17886
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/de/12/default.yml": {
+    "driveFileId": "1e2gi5dBICbfrPtQp5PLTg5evigrDQL5-",
+    "etag": "0b0edc13df6d32994a2c9cda1e991775",
+    "size": 2336
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/de/config-a.yml": {
+    "driveFileId": "1wsnnkoXLqti_YbOPgvBtqmXtxNc1tM__",
+    "etag": "a254c08682b507e3b2f1b99bd73fba39",
+    "size": 25536
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/de/default.yml": {
+    "driveFileId": "113lhRsAn7_EUQYoebmcAZAssh7jtXoB3",
+    "etag": "0b0edc13df6d32994a2c9cda1e991775",
+    "size": 2336
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/dk/config-a.yml": {
+    "driveFileId": "1UHHjtSgf5N5ipRVanMrXaY7rwP8sI4kw",
+    "etag": "4287700db6eba417d1651070936d38df",
+    "size": 2337
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/dk/default.yml": {
+    "driveFileId": "1vonfEPhGo9rSgfoqhGCfkZwSCoMhBbpZ",
+    "etag": "2a0ffcef9270c4f96f347514a8758033",
+    "size": 2336
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/eg/config-a.yml": {
+    "driveFileId": "1KJfn2l015N1IJ9w5dxQep0s3oKu6pXLL",
+    "etag": "4a3419ec8573222d86877363e1999709",
+    "size": 30908
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/eg/default.yml": {
+    "driveFileId": "1cTruueiBATsa0Xd8r5Wsa5x5A-cUHJFY",
+    "etag": "8b6bbd73c5c8af3a4835537df0316c67",
+    "size": 22592
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/es/default.yml": {
+    "driveFileId": "1YTxvSoyy-Bg8y-Xqb_tdf26VWkhe0MON",
+    "etag": "136d05ee898562a168ba2b8fc8e56321",
+    "size": 27485
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/fi/config-a.yml": {
+    "driveFileId": "1-CcGlhaVCIZ0FIuyywiGgtnJlKso-KHL",
+    "etag": "a2759b99cb2828e7e6d67474b0cd9cc2",
+    "size": 17887
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/fi/default.yml": {
+    "driveFileId": "1cgJPBF1j7WHMDLyW-xAkNR6jyyuXloAs",
+    "etag": "9d882c30b520932c902c8fdc48f1ed29",
+    "size": 17886
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ge/config-a.yml": {
+    "driveFileId": "1wlHHQccqeHp9UfbW26KW3Hr9cxPTr-wN",
+    "etag": "95d70d8fedabcc84713c394b458797c8",
+    "size": 27599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ge/default.yml": {
+    "driveFileId": "1h-PIEQmDsgCaeGDjXg-6rkZL6fVddMib",
+    "etag": "432e6df3bc5e1315de20ee429dc85683",
+    "size": 31599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/gr/config-a.yml": {
+    "driveFileId": "12lGJsVQfrtczAy04velxnl05Li742Wyq",
+    "etag": "961e17ee3b5c4ddf7fae300cd09e0029",
+    "size": 37240
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/gr/default.yml": {
+    "driveFileId": "1miRbhd8bmzR4AT-CQJ_hmtuYvLmzb53i",
+    "etag": "777079e01530900cb78504d462b0b484",
+    "size": 37239
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/hr/config-a.yml": {
+    "driveFileId": "1yttu-EuAlDGn-ioXIVKQEUKi-Z6jhJ6f",
+    "etag": "02dfdfbae07567782dfaa16fbbe96c25",
+    "size": 41197
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/hr/default.yml": {
+    "driveFileId": "1CXp7tehnmI7jfG4Da0Wbe6EAe1xjd8CC",
+    "etag": "03e670efe5d784c48fa5289a0b90215a",
+    "size": 31599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/hu/config-a.yml": {
+    "driveFileId": "1nOVwoOTHnBlZShoAFbxBQgtf5rP1-3lq",
+    "etag": "c4ab03a62c5916e0635964223e47722d",
+    "size": 16784
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/hu/default.yml": {
+    "driveFileId": "10syJkdx8ilgfz_lOsAYbvtxizCx1KhVT",
+    "etag": "ea1b382f59649c5b88900d06538b5302",
+    "size": 17886
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/iq/config-a.yml": {
+    "driveFileId": "1JTSv_iEzDmUpp3zLfyooils2LUHADK-K",
+    "etag": "15323dfadf8f30cddb8912e9efb42f07",
+    "size": 37367
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/iq/default.yml": {
+    "driveFileId": "1330gvZnkTplQ_LJ8WuUYSsuMxTjt5Kmj",
+    "etag": "1f32efd7cc6bdd738d49eec7f4d4d8bb",
+    "size": 21019
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/it/config-a.yml": {
+    "driveFileId": "15Tn0RWAhCtzqQ-HngSHq2UVWiBVSYi4S",
+    "etag": "c32ba15e008891b8a0f33cfabeb01bdc",
+    "size": 43952
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/it/default.yml": {
+    "driveFileId": "10rF3ja1BNBZmQlqF4oriHHOPqHuDFhna",
+    "etag": "16e2ce47e38edc814a4b56dc10ea1def",
+    "size": 30630
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/jo/config-a.yml": {
+    "driveFileId": "1M24PqCV9vf3vSorPXjfVV36HbLqpeoxV",
+    "etag": "59a33c4c26173d51efa7501b45e7d8a8",
+    "size": 33074
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/jo/default.yml": {
+    "driveFileId": "1UVuwEJx7pC_NfGRc4yfAli5hLlJIPN6M",
+    "etag": "968e6cdc7387e3539680888ab569dee8",
+    "size": 14871
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ke/config-a.yml": {
+    "driveFileId": "1dvMhPed41CT6sNPO4GFwZhvQsmWXjHgi",
+    "etag": "11ab52a2275421f730ed0d61749a7574",
+    "size": 48888
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ke/default.yml": {
+    "driveFileId": "1s_pnkNxT7L1SLx-oJeQNJUx-lAzVoUll",
+    "etag": "e0676c0fc91f4090fc570f556c65543d",
+    "size": 31599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/kg/config-a.yml": {
+    "driveFileId": "1GF-8xIx_2NJlwxn_DeCh3IwXufBlTD17",
+    "etag": "338fd20a24a22c5b9ff128fdf236f01b",
+    "size": 39153
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/kg/default.yml": {
+    "driveFileId": "19Qdy6IEM-eX_Aa0qPyf4YorfCLEcmBBn",
+    "etag": "ad982a3f5750b59f775674801927b583",
+    "size": 31599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/kw/config-a.yml": {
+    "driveFileId": "1SFGBGsdbULAdjqyE0xs5ezdNFClQw3Mi",
+    "etag": "7fb939beafb256344703c61199cc5230",
+    "size": 36646
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/kw/default.yml": {
+    "driveFileId": "1O9qHEMCxkNRqRisTOclAuta98rUTu_eF",
+    "etag": "73b95901a73bc15a670970284b66a037",
+    "size": 19932
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/kz/default.yml": {
+    "driveFileId": "1kHy2lKIomdjyxwH0huX_6KcRf_rZvJZe",
+    "etag": "55d650202f6e2f020fb22373a405e911",
+    "size": 31599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ma/default.yml": {
+    "driveFileId": "1hwZF_HDshKo2h-Gp1xl7JfDrVX7AwsC3",
+    "etag": "a3a1c993314b28b9904c52b750276621",
+    "size": 31576
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/md/config-a.yml": {
+    "driveFileId": "1WrgejZDSik4tFG3tb0k2UJ2bJOkN74Ob",
+    "etag": "4f18688cd64f041bf74bd67c5cf14472",
+    "size": 31624
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/md/default.yml": {
+    "driveFileId": "1RWtUjt9X9KUrRZFFb9cU44uo35iGvLHe",
+    "etag": "14de5ba70a0753bd18ccf2f13ed13770",
+    "size": 31623
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/me/config-a.yml": {
+    "driveFileId": "14DnGfoFF4bTI4z71M7TOjWnU4yvfOr04",
+    "etag": "ec1a94a37933a4c5737853b70275e2a4",
+    "size": 31576
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/me/default.yml": {
+    "driveFileId": "1_pwWEzgJ-9V10h5Fm1kjvCRM5qGUX-uF",
+    "etag": "fba6a315e1eb5c767da81f818c319eb2",
+    "size": 31575
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ng/config-a.yml": {
+    "driveFileId": "1HkniA_BXu-d6u8QYrCiWPBit1kECu5hQ",
+    "etag": "136ea6c6e6c722619d370f297c3cf7f6",
+    "size": 31625
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ng/default.yml": {
+    "driveFileId": "1b6Lj2E9G4D9lH4Z5vVpe_RaMEgD-avzC",
+    "etag": "3869bb4b27121d1f27c29510b56d24b0",
+    "size": 31624
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/no/config-a.yml": {
+    "driveFileId": "1p-2_W5K0gEB-O8OJSWxsUTl50wmX_wEo",
+    "etag": "d748962af67254312b0814535518726a",
+    "size": 18979
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/no/default.yml": {
+    "driveFileId": "1x50al-JucA-YAJ5dHD2wYcCi8cZw36aQ",
+    "etag": "8c58b7b28c83ee819e2bc54a16a7257a",
+    "size": 17666
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/om/config-a.yml": {
+    "driveFileId": "13osXGhH6BJWC6bybVSVsEQ6a1pW2m-wL",
+    "etag": "27bb4c11b75175c2cdae6b15de3a1109",
+    "size": 36192
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/om/default.yml": {
+    "driveFileId": "1ew4YTRrsOEnPL5NsCTlvBVyK-6IqIxk_",
+    "etag": "0159ab07f67cb2480e7beb22d7bb3035",
+    "size": 20744
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/pl/default.yml": {
+    "driveFileId": "1Kzhh4801wqottKLMG99l6aIZKlcjaqZR",
+    "etag": "2d403746a6bdc57cb6910ecbfdc95f51",
+    "size": 31599
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/pt/default.yml": {
+    "driveFileId": "1dNefM3yXHIDIWn8o0uzW-3vONbx3eVM5",
+    "etag": "84497d60db8dd3cbc4c4aecaa1ad6337",
+    "size": 31551
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/qa/default.yml": {
+    "driveFileId": "1WV0O3Bn3B1C7q8_J55GnxNu-dqztALfX",
+    "etag": "71724929cc4feae10969b8fab93a5a28",
+    "size": 28744
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ro/config-a.yml": {
+    "driveFileId": "1EQMZ3PCtp__gb3kaZo3zOWd3wMPT-Gd3",
+    "etag": "0cf2f73432f051ed709628bd3d584bd3",
+    "size": 31601
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ro/default.yml": {
+    "driveFileId": "1Yt4ciKfWtRZvol0gMLRIFDdg-uFDcJ_Y",
+    "etag": "9c4685d04c184a67ffaea0591d94c4fa",
+    "size": 31600
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/rs/config-a.yml": {
+    "driveFileId": "1OEaWW-azbhFdDbwp-djZzmKaKx9cNoUz",
+    "etag": "665d381a472142760cf095aadd0430a0",
+    "size": 31601
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/rs/default.yml": {
+    "driveFileId": "15ITduX2suL2IU9m6yNH9f1LZrir_ek4K",
+    "etag": "fa1acc37e5635916c157d2d3055a2bfe",
+    "size": 31600
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/sa/config-a.yml": {
+    "driveFileId": "1gIesT9D4ZVHRguey9dXnr1eDsW4BgvRf",
+    "etag": "001b3407c5f7ab444fab5364757c1586",
+    "size": 37515
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/sa/default.yml": {
+    "driveFileId": "108pxLtaRdQfpgBMo-71c2ys2sfSOeFhC",
+    "etag": "216ae91d1cb63ecd7c243b44f6f30260",
+    "size": 7487
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/se/config-a.yml": {
+    "driveFileId": "1pSrs-OSKblBQtQnIfXSAHcPSaKGbsH13",
+    "etag": "897f0e2e22bf2ff1ac47469fec76baee",
+    "size": 18979
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/se/default.yml": {
+    "driveFileId": "17sDllsrRyuCThyv2S2BiZUqWmJjeh0cr",
+    "etag": "4463f8047aa0c16a1db9299e5e961265",
+    "size": 17886
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/sk/config-a.yml": {
+    "driveFileId": "1CTNb8aAMWYXr2x2NeGmOEK3DfyIasBbp",
+    "etag": "9b1d09a0730190c162d1cf912db5c89f",
+    "size": 2337
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/sk/default.yml": {
+    "driveFileId": "1tIY0O-buB0hbPa9_gSLQn-UZbkVREMR9",
+    "etag": "21edc360d6c1087760b1e0b3904d6032",
+    "size": 2336
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/tn/default.yml": {
+    "driveFileId": "1jBK1GFqB4k9hJA7gFC1uo0ed5VbHoocV",
+    "etag": "4fe263db55c1b0f5cd8837571ec18eee",
+    "size": 31552
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/tr/config-a.yml": {
+    "driveFileId": "1FS2hg5JmqZnlI1tIxqK2nEXnkDbwgp2t",
+    "etag": "de912f57c861458e3562f58bd0bcf367",
+    "size": 19082
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/tr/default.yml": {
+    "driveFileId": "1xIxRi1BJzEUXHytxcKAtcOwgxPnvpG1l",
+    "etag": "b4cc8d43661bb80dfbdf22483795470c",
+    "size": 22547
+  },
+  "production-eu-customer-logistics-seamless-configs-tes/ua/default.yml": {
+    "driveFileId": "10gPAd7K4VMh0rmQxnXqRBUvCElq9e-s1",
+    "etag": "4e192c6ef8acba9aece954928973e5e9",
+    "size": 31600
+  },
+  "production-kr2-customer-logistics-seamless-configs-tes/kr/config-a.yml": {
+    "driveFileId": "1H6H4GDKrweBxPocjW3Na9FB4Ys420HAu",
+    "etag": "4215b01918158c67be7d609057e2c0c0",
+    "size": 23108
+  },
+  "production-kr2-customer-logistics-seamless-configs-tes/kr/default.yml": {
+    "driveFileId": "1n0-DcsCIFIHIG7rbHq1zCWuyymQ2GIUb",
+    "etag": "d9f1d28ecfed9d64798e3b318eed42ae",
+    "size": 19271
+  },
+  "production-us-customer-logistics-seamless-configs-tes/ar/config-a.yml": {
+    "driveFileId": "10FF3_u-skGe4dwooq1j63-K0w4APtpnG",
+    "etag": "a9a6b585891db26aec50bed06639cf2c",
+    "size": 81980
+  },
+  "production-us-customer-logistics-seamless-configs-tes/bo/default.yml": {
+    "driveFileId": "1K6KX6DeEuiwsqv8P_rf9axXrmuO9KfiJ",
+    "etag": "79664bbf25595756e04c06ab42903d82",
+    "size": 57846
+  },
+  "production-us-customer-logistics-seamless-configs-tes/cl/default.yml": {
+    "driveFileId": "1zLElGUaPKRv2BpeBs-C6w-wTnWfFKvJ0",
+    "etag": "98d1a65801747f4e9ab6eb08e3dc03a7",
+    "size": 10133
+  },
+  "production-us-customer-logistics-seamless-configs-tes/co/config-a.yml": {
+    "driveFileId": "1ND_itZEPp2kjVLqeV4zM-GaSGwxw-QDe",
+    "etag": "2596b582ffa0388ccc8a7031067eb0c0",
+    "size": 1581
+  },
+  "production-us-customer-logistics-seamless-configs-tes/co/default.yml": {
+    "driveFileId": "1oUMZVdtEeSs3KB1t_VIG4AbkdNi370hw",
+    "etag": "85fa34acf03ae21ebbcd4ac8d1a7f85a",
+    "size": 1580
+  },
+  "production-us-customer-logistics-seamless-configs-tes/cr/config-a.yml": {
+    "driveFileId": "1fPT1aE6XPoFYc5YFEWysvFqm4xoz9mxD",
+    "etag": "ba1b56bf0fdb53166128be7ff1a76a3b",
+    "size": 30279
+  },
+  "production-us-customer-logistics-seamless-configs-tes/cr/default.yml": {
+    "driveFileId": "1ROI9lowwy9q2NxHDs3s_HBQtcZ6bIn1A",
+    "etag": "01c293f1f4d3395b695c02a701829b20",
+    "size": 30278
+  },
+  "production-us-customer-logistics-seamless-configs-tes/do/config-a.yml": {
+    "driveFileId": "12J_pHBwRnf4ltUuQQUYRd_RuP2uIxSov",
+    "etag": "41a80a7451caec337e0b47b74a65a188",
+    "size": 73652
+  },
+  "production-us-customer-logistics-seamless-configs-tes/do/default.yml": {
+    "driveFileId": "1wlkrDFM_m0WF2ZBiNSwXqIzrCTb9I-kM",
+    "etag": "4d38da8c5f936cf8424ba7f938f3c4d6",
+    "size": 73651
+  },
+  "production-us-customer-logistics-seamless-configs-tes/ec/config-a.yml": {
+    "driveFileId": "1Y8Ot4x0emYXeR9AT6EG1MBaR31lFq6W4",
+    "etag": "d215f478d7f6f2da98b0e0a53d6744eb",
+    "size": 75902
+  },
+  "production-us-customer-logistics-seamless-configs-tes/ec/default.yml": {
+    "driveFileId": "19RTTYks2kqMyzvrW5D1WI1YFHV7dmgiH",
+    "etag": "243092ed8162f5ba4ba6b73f0752bbc9",
+    "size": 75901
+  },
+  "production-us-customer-logistics-seamless-configs-tes/gt/config-a.yml": {
+    "driveFileId": "1rKAdlhZSxUhJszpviYxOE1pz9T_9e09F",
+    "etag": "0681743a87cd391bb6ee00b3ffc5e720",
+    "size": 74173
+  },
+  "production-us-customer-logistics-seamless-configs-tes/gt/default.yml": {
+    "driveFileId": "103_zr6-M2yZ4n9_zrkcZRDNSLcCKxNY0",
+    "etag": "b970f167f972a4a614a2e79895113da4",
+    "size": 74172
+  },
+  "production-us-customer-logistics-seamless-configs-tes/hn/default.yml": {
+    "driveFileId": "1pcclDFZuOp4RX52SAqWZfwPAkoyqtBU1",
+    "etag": "df2342c3fff5c0e8064014aad21bd7ad",
+    "size": 73462
+  },
+  "production-us-customer-logistics-seamless-configs-tes/ni/config-a.yml": {
+    "driveFileId": "1CftDhxO0svipMGyvXuxmbWx2ybxIc8qE",
+    "etag": "81a9f15419c23abad0f3aa94432496d2",
+    "size": 75971
+  },
+  "production-us-customer-logistics-seamless-configs-tes/pa/config-a.yml": {
+    "driveFileId": "1s7yQYebrmMu7jKCma5-JnNFx-IWZ_LYc",
+    "etag": "19f269844a2c90f1784d66f818c756e3",
+    "size": 57813
+  },
+  "production-us-customer-logistics-seamless-configs-tes/pa/default.yml": {
+    "driveFileId": "1EsIO2LlX6tkza-ICLlMHtdLuG7wy0dy3",
+    "etag": "dcfa9c4bb1b711dd8dfc8eeb64df5b3e",
+    "size": 57812
+  },
+  "production-us-customer-logistics-seamless-configs-tes/pe/config-a.yml": {
+    "driveFileId": "1cgItiII3jXs7nT-HVnXHcEWJHYSu8fFu",
+    "etag": "824a4ca9d746357b031d4d6c31c7a2f3",
+    "size": 76271
+  },
+  "production-us-customer-logistics-seamless-configs-tes/pe/default.yml": {
+    "driveFileId": "1ipHq2on6WZznuJPgHRrq7NplaS2rZQ-I",
+    "etag": "f61807bd1bd78df4a8a3241e9b236c73",
+    "size": 1580
+  },
+  "production-us-customer-logistics-seamless-configs-tes/py/default.yml": {
+    "driveFileId": "1ImipbDTIQPQ97DleCmjKoTo7QE1Ka9i9",
+    "etag": "eacc1caff5e92134196d2c1dd242e2a8",
+    "size": 75420
+  },
+  "production-us-customer-logistics-seamless-configs-tes/sv/config-a.yml": {
+    "driveFileId": "1ouQXDkjlvLabZvzGyVRkHQNBxxsPP3S4",
+    "etag": "f521f173eaddd59ee703b269ec9f791c",
+    "size": 76049
+  },
+  "production-us-customer-logistics-seamless-configs-tes/sv/default.yml": {
+    "driveFileId": "1a190m5u3B8C6rs9s6XDfQ0qXnV-ZB-je",
+    "etag": "1fd50e9fe45b6b40d50018ed0676fe6b",
+    "size": 76048
+  },
+  "production-us-customer-logistics-seamless-configs-tes/uy/default.yml": {
+    "driveFileId": "1iLlThH6R6GoCGZnN1G2_adfLU6bzfwQS",
+    "etag": "40ea69d0b9f068049784e433030d6bca",
+    "size": 15157
+  },
+  "production-us-customer-logistics-seamless-configs-tes/ve/config-a.yml": {
+    "driveFileId": "1ndNDhUyUd7WqAsgVFov1oiVxu6GBJM3p",
+    "etag": "52fc63ab765dd43d8b187f06ba0343a3",
+    "size": 46490
+  },
+  "production-us-customer-logistics-seamless-configs-tes/ve/default.yml": {
+    "driveFileId": "1cIg1q8s5_Vu5_VwKuTVjyRD0xTkfhXiC",
+    "etag": "4eeb966373119513706b37317d089069",
+    "size": 46489
+  }
+}
